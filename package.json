@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "app",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "9.0.0",
+    "@types/node": "20.12.7",
+    "esbuild": "0.20.2",
+    "eslint": "8.57.0",
+    "prettier": "3.2.5",
+    "tsx": "4.7.2",
+    "typescript": "5.4.5",
+    "typescript-eslint": "7.6.0"
+  },
+  "scripts": {
+    "build": "esbuild ./src/main.ts --outfile=./bin/app.js",
+    "dev": "tsx src/main.ts",
+    "lint": "eslint .",
+    "test": "tsx --test",
+    "tests": "npm run test 'src/**/*.test.ts'"
+  }
+}

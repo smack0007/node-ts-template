@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": ["$tsc"],
+      "label": "npm: dev"
+    }
+  ]
+}
