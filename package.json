@@ -15,7 +15,7 @@
   "scripts": {
     "build": "esbuild ./src/main.ts --outfile=./bin/app.js",
     "dev": "tsx src/main.ts",
-    "lint": "eslint .",
+    "lint": "prettier -c . && eslint .",
     "test": "tsx --test",
     "tests": "npm run test 'src/**/*.test.ts'"
   }
