@@ -1,13 +1,23 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "target": "ESNext",
     "allowImportingTsExtensions": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+
     "strict": true,
-    "skipLibCheck": true
-  }
+    "noUncheckedIndexedAccess": true,
+
+    "noEmit": true,
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"]
+  },
+
+  "include": ["src/**/*.ts"]
 }
