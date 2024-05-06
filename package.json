@@ -8,9 +8,9 @@
     "esbuild": "0.20.2",
     "eslint": "8.57.0",
     "prettier": "3.2.5",
-    "tsx": "4.7.2",
+    "tsx": "4.9.3",
     "typescript": "5.4.5",
-    "typescript-eslint": "7.6.0"
+    "typescript-eslint": "7.8.0"
   },
   "scripts": {
     "build": "esbuild ./src/main.ts --outfile=./bin/app.js",
